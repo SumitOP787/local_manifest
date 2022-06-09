@@ -4,17 +4,20 @@
         <remote name="me"
           fetch="https://github.com/S8M1T" />
         
+        <remote name="me2"
+          fetch="https://github.com/SumitOP787" />
+        
         <remote name="pj"
           fetch="https://github.com/pjgowtham" />
         
-        <remote name="los"
-          fetch="https://github.com/LineageOS" />
+        <remote name="pts"
+          fetch="https://github.com/HyperTeam/android_packages_apps_RealmeParts" />
         
-  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me" revision="lineage-19.1"/>
+  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me2" revision="lineage-19.1"/>
   <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
   <project path="vendor/oplus/RMX3360" name="android_vendor_oplus_RMX3360" remote="me" revision="lineage-19.1" />
   <project path="vendor/oplus/sm8350-common" name="android_vendor_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
   <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="pj" revision="lineage-19.1-RMX3360" />
-  <project path="hardware/oplus" name="android_hardware_oplus" remote="los" revision="lineage-19.1" />
+  <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="pts" revision="lineage-19.0" />
         
 </manifest>
