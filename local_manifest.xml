@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-        <remote name="me"
-          fetch="https://github.com/S8M1T" />
         
-        <remote name="me2"
-          fetch="https://github.com/SumitOP787" />
+  <remote  name="crdroidandroid"
+           fetch="https://github.com/crdroidandroid"
+           revision="12.1"/>
         
-        <remote name="pj"
-          fetch="https://github.com/pjgowtham" />
+  <remote  name="kdrag0n"
+           fetch="https://github.com/kdrag0n"
+           revision="12.1"/>
         
-        <remote name="pts"
-          fetch="https://github.com/HyperTeam/android_packages_apps_RealmeParts" />
+  <project path="device/realme/RMX3031" name="android_device_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
         
-  <project path="device/oplus/RMX3360" name="android_device_oplus_RMX3360" remote="me2" revision="lineage-19.1"/>
-  <project path="device/oplus/sm8350-common" name="android_device_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
-  <project path="vendor/oplus/RMX3360" name="android_vendor_oplus_RMX3360" remote="me" revision="lineage-19.1" />
-  <project path="vendor/oplus/sm8350-common" name="android_vendor_oplus_sm8350-common" remote="me" revision="lineage-19.1"/>
-  <project path="kernel/oplus/sm8350" name="android_kernel_oplus_sm8350" remote="pj" revision="lineage-19.1-RMX3360" />
-  <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="pts" revision="lineage-19.0" />
+  <project path="vendor/realme/RMX3031" name="proprietary_vendor_realme_RMX3031" remote="crdroidandroid" revision="12.1"/>
+        
+  <project path="vendor/realme/IMS-RMX3031" name="proprietary_vendor_realme_RMX3031-IMS" remote="crdroidandroid" revision="12.1"/>
+        
+  <project path="kernel/realme/RMX3031" name="android_kernel_realme_RMX3031" remote="crdroidandroid" revision="12.1" clone-depth="1"/>
+        
+  <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="crdroidandroid" revision="10.0" clone-depth="1"/>
+        
+  <project path="prebuilts/clang/host/linux-x86/proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
         
 </manifest>
